@@ -1,4 +1,11 @@
-import Item from './Item';
+import Item from "./Item";
 
-const Menu = () => {};
+const Menu = () => {
+  return (
+    <div>
+      <div>Menu Component</div>
+      <Item />
+    </div>
+  );
+};
 export default Menu;

@@ -1,4 +1,11 @@
 import Item from "./Item";
 
-const Checkout = () => {}
-export default Checkout
+const Checkout = () => {
+  return (
+    <div>
+      <div>Checkout Component</div>
+      <Item />
+    </div>
+  );
+};
+export default Checkout;
